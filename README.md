@@ -1,17 +1,3 @@
-<style>
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
 
 <h1 align="center"><span style="font-weight:normal">GaitPT: Skeletons Are All You Need For Gait Recognition</h1>
 <h3 align="center"><span style="font-weight:normal">Accepted at: The 18th IEEE International Conference on Automatic Face and Gesture Recognition </h3>
@@ -37,13 +23,15 @@ TODO
 
 ## <a name="results"></a> 📖 Results
 
+<div>
 <img src="images/casia-results.png">
+</div>
 
-<div class='row'>
-  <div class='column'>
+<div>
+  <div style="float:left;width:50%;padding:5px;">
     <img src="images/grew-results.png">
   </div>
-  <div class='column'>
+  <div style="float:left;width:50%;padding:5px;">
     <img src="images/gait3d-results.png">
   </div>
 
