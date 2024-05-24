@@ -17,9 +17,41 @@
 
 ## <a name="getting-started"></a> 📖 Getting Started
 
-```
-TODO
-```
+### Prerequisites
+Install all dependencies with the following command:
+```pip install -r requirements.txt```
+
+### Data
+Download the preprocessed CASIA-B [1] skeletons from [here](https://drive.google.com/drive/u/2/folders/1QzpM7aj5tU0QhiiqaXM2R1dxXh4lt4tE) and extract them in the ```data/``` directory. For GREW [2] and Gait3D [3], contact the authors for the 2D skeletons.
+
+[1] Shiqi Yu, Daoliang Tan and Tieniu Tan, "A Framework for Evaluating the Effect of View Angle, Clothing and Carrying Condition on Gait Recognition," 18th International Conference on Pattern Recognition (ICPR'06), Hong Kong, China, 2006, pp. 441-444, doi: 10.1109/ICPR.2006.67.
+
+[2] Zhu, Zheng, et al. "Gait recognition in the wild: A benchmark." Proceedings of the IEEE/CVF international conference on computer vision. 2021.
+
+[3] Jinkai Zheng, Xinchen Liu, Wu Liu, Lingxiao He, Chenggang Yan, Tao Mei, "Gait Recognition in the Wild with Dense 3D Representations and A Benchmark." (2022). IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
+
+### Training from scratch
+
+To train on CASIA-B run:
+```scripts/train_casia.sh```
+
+To train on GREW run:
+```scripts/train_grew.sh```
+
+To train on Gait3D run:
+```scripts/train_gait3d.sh```
+
+### Evaluating pretrained models:
+Download the pretrained weights from [here](https://drive.google.com/drive/folders/1gHouvtwEI7h0gylb5JjEwWZyu9iVMuNR?usp=sharing) and place them in the ```checkpoints/``` directory.
+
+To evaluate pretrained model on CASIA-B run:
+```scripts/evaluate_casia.sh```
+
+To evaluate pretrained model on GREW run:
+```scripts/evaluate_grew.sh```
+
+To evaluate pretrained model on Gait3D run:
+```scripts/evaluate_gait3d.sh```
 
 ## <a name="results"></a> 📖 Results
 
