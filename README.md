@@ -2,7 +2,7 @@
 <h1 align="center"><span style="font-weight:normal">GaitPT: Skeletons Are All You Need For Gait Recognition</h1>
 <h3 align="center"><span style="font-weight:normal">Accepted at: The 18th IEEE International Conference on Automatic Face and Gesture Recognition </h3>
 
-<p align="center"> <a href="https://arxiv.org/pdf/2308.10623"> 📘 Paper PDF </a> | <a href=""> 🪧 Poster </a> | <a href="https://docs.google.com/presentation/d/1Vz1RStFqZxcaMGtB25U5OJ-VdmRMLnA6qfQFS7-WL2E/edit?usp=sharing"></p>
+<p align="center"> <a href="https://arxiv.org/pdf/2308.10623"> 📘 Paper PDF </a> | <a href="https://docs.google.com/presentation/d/1Vz1RStFqZxcaMGtB25U5OJ-VdmRMLnA6qfQFS7-WL2E/edit?usp=sharing"> 🪧 Poster </a> |  <a href="https://docs.google.com/presentation/d/15DsTQxjnWf7NA47emtmEin47dzYhMM9CK1eBhoKK9EA/edit?usp=sharing"> 🛝🛝 Slides </a> </p>
 
 <div align="center">
 <strong> Authors </strong>: <a href="https://scholar.google.com/citations?user=ct7ju7EAAAAJ&hl=en&oi=ao"> Andy Catruna </a>, <a href="https://scholar.google.com/citations?user=cdYk_RUAAAAJ&hl=en"> Adrian Cosma</a>, <a href="https://scholar.google.com/citations?user=yjtWIf8AAAAJ&hl=en">Emilian Radoi </a>
@@ -56,16 +56,9 @@ To evaluate pretrained model on Gait3D run:
 ## <a name="results"></a> 📖 Results
 
 <div>
-<img src="images/casia-results.png">
-</div>
-
-<div>
-  <div style="float:left;width:50%;padding:5px;">
-    <img src="images/grew-results.png">
-  </div>
-  <div style="float:left;width:50%;padding:5px;">
-    <img src="images/gait3d-results.png">
-  </div>
+<img width="300px" src="images/casia-results.png">
+<img width="300px" src="images/grew-results.png">
+<img width="300px" src="images/gait3d-results.png">
 
 </div>
 
