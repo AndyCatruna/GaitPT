@@ -66,11 +66,21 @@ To evaluate pretrained model on Gait3D run:
 If you found our work useful or use our dataset in any way, please cite our paper:
 
 ```
-@inproceedings{catruna2024gaitpt,
-  title={GaitPT: Skeletons Are All You Need For Gait Recognition},
-  author={Catruna, Andy and Cosma, Adrian and Radoi, Emilian},
-  booktitle={The 18th IEEE International Conference on Automatic Face and Gesture Recognition},
-  year={2024}
+@inproceedings{catruna24gaitpt,
+  author       = {Andy Catruna and
+                  Adrian Cosma and
+                  Emilian Radoi},
+  title        = {GaitPT: Skeletons are All You Need for Gait Recognition},
+  booktitle    = {18th {IEEE} International Conference on Automatic Face and Gesture
+                  Recognition, {FG} 2024, Istanbul, Turkey, May 27-31, 2024},
+  pages        = {1--10},
+  publisher    = {{IEEE}},
+  year         = {2024},
+  url          = {https://doi.org/10.1109/FG59268.2024.10581947},
+  doi          = {10.1109/FG59268.2024.10581947},
+  timestamp    = {Wed, 31 Jul 2024 14:28:05 +0200},
+  biburl       = {https://dblp.org/rec/conf/fgr/CatrunaCR24b.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
